@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>My First Website ✦</h1>
+
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="artwork.html">Artwork</a>
+        <a href="contact.html" class="active">Contact Me</a>
+    </nav>
+</header>
+
+<main>
+
+    <section class="contact">
+        <p class="small-text">Let's get in touch ♡</p>
+
+        <h2>Contact Me</h2>
+
+        <form>
+
+            <label for="nama">Nama</label>
+            <input type="text" id="nama" name="nama"
+                   placeholder="Masukkan nama kamu">
+
+            <label for="phone">No. HP</label>
+            <input type="tel" id="phone" name="phone"
+                   placeholder="08xxxxxxxxxx">
+
+            <label for="socmed">Social Media</label>
+            <input type="text" id="socmed" name="socmed"
+                   placeholder="@username">
+
+            <label>How did you find me?</label>
+
+            <div class="radio-group">
+                <label>
+                    <input type="radio" name="source" value="friend">
+                    Friend
+                </label>
+
+                <label>
+                    <input type="radio" name="source" value="instagram">
+                    Instagram
+                </label>
+
+                <label>
+                    <input type="radio" name="source" value="other">
+                    Other
+                </label>
+            </div>
+
+            <label for="purpose">Purpose</label>
+
+            <select id="purpose" name="purpose">
+                <option value="">-- Choose one --</option>
+                <option value="commission">Commission</option>
+                <option value="collaboration">Collaboration</option>
+                <option value="friend">Just saying hi!</option>
+            </select>
+
+            <button type="submit">Send Message ♡</button>
+
+        </form>
+
+    </section>
+
+</main>
+
+<footer>
+    <p>Made with ♡ by Aykho</p>
+</footer>
+
+</body>
+</html>
